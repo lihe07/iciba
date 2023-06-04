@@ -6,11 +6,11 @@ A cli query tool for iciba.com (金山词霸)
 
 - Search word with prompt (powered by `prompt_toolkit`)
 
-![prompt](./images/1.png)
+![prompt](https://raw.githubusercontent.com/lihe07/iciba/main/images/1.png)
 
 - Rich text results (powered by `rich`)
 
-![rich](./images/2.png)
+![rich](https://raw.githubusercontent.com/lihe07/iciba/main/images/2.png)
 
 
 ## Installation

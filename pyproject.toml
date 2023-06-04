@@ -1,0 +1,24 @@
+
+[tool.poetry]
+name = "iciba"
+version = "0.1.0"
+description = "A cli query tool for iciba.com (金山词霸)"
+authors = ["He <li@imlihe.com>"]
+license = "MIT"
+readme = "README.md"
+repository = "https://github.com/lihe07/iciba"
+keywords = ["cli", "dictionary", "iciba", "translate"]
+
+[tool.poetry.dependencies]
+python = ">=3.7.0"
+httpx = "^0.24.1"
+prompt-toolkit = "^3.0.38"
+rich = "^13.4.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.scripts]
+iciba = "iciba.__main__:start"

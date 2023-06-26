@@ -1,7 +1,7 @@
 
 [tool.poetry]
 name = "iciba"
-version = "0.1.1"
+version = "0.1.2"
 description = "A cli query tool for iciba.com (金山词霸)"
 authors = ["He <li@imlihe.com>"]
 license = "MIT"
